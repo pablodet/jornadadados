@@ -12,10 +12,10 @@
 #print(" O resultado da divisao por 5 é:", resultado_resto)
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
-num1 = int(input("Digite o primeiro numero inteiro: "))
-num2 = int(input("Digite o segundo numero inteiro: "))
-resultado_multiplicacao = num1 * num2
-print("O resultado da multiplicação é:", resultado_multiplicacao)
+#num1 = int(input("Digite o primeiro numero inteiro: "))
+#num2 = int(input("Digite o segundo numero inteiro: "))
+#resultado_multiplicacao = num1 * num2
+#print("O resultado da multiplicação é:", resultado_multiplicacao)
 
 ## 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 #num1 = int(input("Digite o primeiro numero inteiro: "))
@@ -29,6 +29,11 @@ print("O resultado da multiplicação é:", resultado_multiplicacao)
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+num1 = float(input("Digite o primeiro numero flutuante: "))
+num2 = float(input("Digite o segundo numero flutuante: "))
+resultado_soma = num1 + num2
+print("A soma é:", resultado_soma)
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
