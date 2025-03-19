@@ -1,4 +1,3 @@
-
 # #### Inteiros (`int`)
 
 ## 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
@@ -44,13 +43,17 @@
 #media = (num1 + num2) / 2
 #print(f"A media é: {media:.2f}")
 
-# 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
-base = float(input("Digite o numero da base: "))
-expoente =  float(input("Digiteo o numero do expoente: "))
-potencia = base ** expoente
-print(f"O resultado da potencia é: {potencia:.2f}")
+# 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário.
+#base = float(input("Digite o numero da base: "))
+#expoente =  float(input("Digiteo o numero do expoente: "))
+#potencia = base ** expoente
+#print(f"O resultado da potencia é: {potencia:.2f}")
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+Celsius =  float(input("Digite a temperatura em Celsius: "))
+Fahrenheit = (Celsius * 9/5) + 32
+print(f"{Celsius}ºC é igual a {Fahrenheit}ºF")
+
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 #import math
