@@ -1,3 +1,4 @@
+
 # #### Inteiros (`int`)
 
 ## 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
@@ -34,15 +35,20 @@
 #resultado_soma = num1 + num2
 #print("A soma é:", resultado_soma)
 
-# 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
-num1 = float(input("Digite o primeiro numero flutuante:"))
-num2 = float(input("Digite o segundo numero flutuante: "))
-media = (num1 + num2) / 2
-print("A media é:", media)
+# 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário"
+#num1 = float(input("Digite o primeiro numero flutuante:"))
+#num2 = float(input("Digite o segundo numero flutuante: "))
+#media = (num1 + num2) / 2
+#print(f"A media é: {media:.2f}")
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+import math
+
+raio_do_circulo = float(input("Digite o raio do circulo: "))
+area_do_circulo = math.pi *  raio_do_circulo ** 2
+print(f"A área do círculo é {area_do_circulo:.2f}")
 
 # #### Strings (`str`)
 
