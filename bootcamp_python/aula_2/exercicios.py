@@ -96,14 +96,22 @@
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
-valor1 = input("Digite true ou false para a primeira expressão: ").strip().lower() == "true"
-valor2 = input("Digite true ou false para a segunda expressão: ").strip().lower() == "true"   
-resultado_and = valor1 and valor2
-print("Resultando do AND logico:", resultado_and)
+#valor1 = input("Digite true ou false para a primeira expressão: ").strip().lower() == "true"
+#valor2 = input("Digite true ou false para a segunda expressão: ").strip().lower() == "true"   
+#resultado_and = valor1 and valor2
+#print("Resultando do AND logico:", resultado_and)
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+num1 = int(input("Digite o primeiro numero: "))
+num2 = int(input("Digite o segundo numero: "))
+
+if num1 == num2:
+    print("Os numeros são iguais.")
+else:
+    print("Os numeros são diferentes.")
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
 # #### try-except e if
