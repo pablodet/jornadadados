@@ -103,16 +103,20 @@
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
-# 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+## 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+#num1 = int(input("Digite o primeiro numero: "))
+#num2 = int(input("Digite o segundo numero: "))
+
+#if num1 == num2:
+    #print("Os numeros são iguais.")
+#else:
+    #print("Os numeros são diferentes.")
+
+## 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 num1 = int(input("Digite o primeiro numero: "))
 num2 = int(input("Digite o segundo numero: "))
-
-if num1 == num2:
-    print("Os numeros são iguais.")
-else:
-    print("Os numeros são diferentes.")
-
-# 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+resultado_diferenca = (num1 != num2)
+print("Resultado da diferença:", resultado_diferenca)
 
 # #### try-except e if
 
