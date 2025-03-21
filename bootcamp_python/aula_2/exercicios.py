@@ -102,11 +102,18 @@
 #print("Resultando do AND logico:", resultado_and)
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
-valor1 = input("Digite True ou False para a primeira expressão: ").strip().lower() == "true"
-valor2 = input("Digite True ou False para a segunda expressão: ").strip().lower() == "true"
-resultado_or =  valor1 or valor2
-print("Resultado do OR lógico:", resultado_or)
+#valor1 = input("Digite True ou False para a primeira expressão: ").strip().lower() == "true"
+#valor2 = input("Digite True ou False para a segunda expressão: ").strip().lower() == "true"
+#resultado_or =  valor1 or valor2
+#print("Resultado do OR lógico:", resultado_or)
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+#valor = input("Digite True ou False: ").strip().lower() == "true" 
+#valor_invertido = not valor
+#print("Valor invertido:", valor_invertido)
+
+
+
 ## 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 #num1 = int(input("Digite o primeiro numero: "))
 #num2 = int(input("Digite o segundo numero: "))
@@ -125,6 +132,13 @@ print("Resultado do OR lógico:", resultado_or)
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+try:
+    fahrenheit = float(input("Digite a temperatura em Fahrenheit: "))
+    celsius = (fahrenheit - 32) * 5/9
+    print(f"{fahrenheit}ºF é igual a {celsius:.2f}ºC")
+except ValueError:
+    print("Erro: Digite um número válido.")
+
 # 22: Verificador de Palíndromo
 # 23: Calculadora Simples
 # 24: Classificador de Números
