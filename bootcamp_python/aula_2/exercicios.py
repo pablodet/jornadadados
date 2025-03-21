@@ -136,6 +136,15 @@ try:
     fahrenheit = float(input("Digite a temperatura em Fahrenheit: "))
     celsius = (fahrenheit - 32) * 5/9
     print(f"{fahrenheit}ºF é igual a {celsius:.2f}ºC")
+
+    if celsius >0:
+        print("A temperatura é positiva.")
+    elif celsius ==0:
+        print("A temperatura é zero.")
+    else:
+        print("A temperatura é negativa. ")
+
+
 except ValueError:
     print("Erro: Digite um número válido.")
 
