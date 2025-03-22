@@ -132,23 +132,33 @@
 # #### try-except e if
 
 # 21: Conversor de Temperatura
-try:
-    fahrenheit = float(input("Digite a temperatura em Fahrenheit: "))
-    celsius = (fahrenheit - 32) * 5/9
-    print(f"{fahrenheit}ºF é igual a {celsius:.2f}ºC")
+#try:
+    #fahrenheit = float(input("Digite a temperatura em Fahrenheit: "))
+    #celsius = (fahrenheit - 32) * 5/9
+    #print(f"{fahrenheit}ºF é igual a {celsius:.2f}ºC")
 
-    if celsius >0:
-        print("A temperatura é positiva.")
-    elif celsius ==0:
-        print("A temperatura é zero.")
-    else:
-        print("A temperatura é negativa. ")
+    #if celsius >0:
+        #print("A temperatura é positiva.")
+    #elif celsius ==0:
+        #print("A temperatura é zero.")
+    #else:
+        #print("A temperatura é negativa. ")
 
 
-except ValueError:
-    print("Erro: Digite um número válido.")
+#except ValueError:
+    #print("Erro: Digite um número válido.")
 
 # 22: Verificador de Palíndromo
+texto = input("Digite uma palavra ou uma frase: ").strip().lower()
+texto_invertido = texto[::-1]
+texto_sem_espacos = texto.replace(" ","")
+print("Texto invertido:", texto_invertido)
+
+if texto == texto_invertido:
+    print("É um palíndromo!")
+else: 
+    print("Não é um Palindromo!")    
+
 # 23: Calculadora Simples
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
