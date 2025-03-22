@@ -149,16 +149,35 @@
     #print("Erro: Digite um número válido.")
 
 # 22: Verificador de Palíndromo
-texto = input("Digite uma palavra ou uma frase: ").strip().lower()
-texto_invertido = texto[::-1]
-texto_sem_espacos = texto.replace(" ","")
-print("Texto invertido:", texto_invertido)
+#texto = input("Digite uma palavra ou uma frase: ").strip().lower()
+#texto_invertido = texto[::-1]
+#texto_sem_espacos = texto.replace(" ","")
+#print("Texto invertido:", texto_invertido)
 
-if texto == texto_invertido:
-    print("É um palíndromo!")
-else: 
-    print("Não é um Palindromo!")    
+#if texto == texto_invertido:
+    #print("É um palíndromo!")
+#else: 
+    #print("Não é um Palindromo!")    
 
 # 23: Calculadora Simples
+num1 = float(input("Digite o primeiro numero: "))
+num2 = float(input("Digite o segundo numero: "))
+operacao = input("Digite uma das operação +, -, *, / : ")
+
+if operacao == "+":
+    resultado = num1 + num2
+elif operacao == "-":
+    resultado = num1 - num2
+elif operacao == "*":
+    resultado = num1 * num2
+elif operacao == "/":
+    if num2 != 0:
+        resultado = num1 / num2
+    else:
+        resultado = "Erro: Divisão por zero!"
+else:
+    resultado = "Operação invalidada!"    
+print(f"Resultado: {resultado}")                             
+
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
